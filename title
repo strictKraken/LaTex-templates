@@ -1,0 +1,59 @@
+\documentclass[fontsize=14pt,a4paper]{article}
+\usepackage{scrextend}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage[left=30mm,right=15mm,bottom=20mm,top=20mm,nohead,nofoot]{geometry}
+\usepackage{fancyhdr}
+
+%Подключить Times New Roman
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+
+\usepackage{graphicx}
+\usepackage{setspace}
+%\полуторный интервал
+\onehalfspacing
+
+\begin{document}
+    \begin{titlepage}
+        \begin{center}
+            Министерство образования и науки Российской Федерации\\
+            Федеральное государственное автономное образовательное учреждение высшего образования
+            \vspace{\baselineskip}\vspace{\baselineskip}
+            
+            \textbf{НАЦИОНАЛЬНЫЙ ИССЛЕДОВАТЕЛЬСКИЙ УНИВЕРСИТЕТ ИТМО}
+            %\vspace{\baselineskip}
+            \includegraphics{titleITMO.png}
+            
+            Факультет Безопасных Информационных Технологий
+            
+            
+            Лабораторная работа №1    
+        \end{center}
+        
+    \vspace{15ex}
+    
+    %
+    \begin{flushright}
+        Выполнил: \\
+        Студент группы \\ 
+        Ф.И.О 
+        \vspace{\baselineskip}
+        
+        \underline{\hspace{35mm}} \\
+        Проверил: \\
+        Ф.И.О 
+        \vspace{\baselineskip}
+        
+        \underline{\hspace{35mm}} \\
+    \end{flushright}
+        
+    \vspace{\fill}
+    \begin{center}
+        Санкт-Петербург\\
+        2021г.
+    \end{center}
+    
+    \end{titlepage}    
+    
+\end{document}
